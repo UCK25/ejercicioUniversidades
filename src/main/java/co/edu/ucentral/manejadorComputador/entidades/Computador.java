@@ -17,9 +17,9 @@ import lombok.Setter;
 @Entity
 public class Computador {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
 
     private Long id;
+    private String cpu;
     private String marca;
     private String modelo;
     private int capacidadAlmacenamiento;
